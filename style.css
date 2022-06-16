@@ -1,4 +1,8 @@
 
+html{
+    scroll-behavior: smooth;
+}
+
 .jumbotron-fluid{
     padding-top: 6rem;
     background-color: #dfa355;
@@ -21,12 +25,14 @@
 
 }
 
+
 #projects{
     background-color:#dfa355 ;
  }
 body{
     min-height: 3000px;
 }
+
 
 footer{
     background-color:#dfa355;
