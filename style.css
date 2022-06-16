@@ -1,0 +1,37 @@
+
+.jumbotron-fluid{
+    padding-top: 6rem;
+    background-color: #dfa355;
+}
+
+.lead{
+    font-family:Courier;
+    font-weight: bold;
+}
+.display-4{
+    font-family:'Roboto Mono',monospace;
+}
+.card{
+    background-color: #edba78ec;
+
+}
+.card:hover{
+    z-index: 3;
+    transform: scale(1.25);
+
+}
+
+#projects{
+    background-color:#dfa355 ;
+ }
+body{
+    min-height: 3000px;
+}
+
+footer{
+    background-color:#dfa355;
+}
+
+section{
+    padding-top: 6rem;
+}
