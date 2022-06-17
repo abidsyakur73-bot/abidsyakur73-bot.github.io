@@ -13,7 +13,7 @@ html,body{
 }
 
 ::-webkit-scrollbar{
-    width: 4px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-thumb{
@@ -43,14 +43,17 @@ html,body{
     
 }
 
+.animate__animated .animate__fadeInLeft{
+    scroll-behavior: auto;
+}
+
+
 /*animation*/
 .display-4{
     animation:typewriter 4s steps(40) 1s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
+    
 }
-
-
-
 
 .card{
     background-color: #edba78ec;
@@ -73,8 +76,7 @@ footer{
 section{
     padding-top: 6rem;
 }
-
-
+ 
 @keyframes typewriter {
     from{
         width: 0;
@@ -93,7 +95,13 @@ section{
         border-right-color: transparent;
     }
 }
+
 @keyframes fade-inout {
     0%{opacity: 0;}
-    100%{opacity: 1;}
+   100%{opacity: 1;}
 }
+
+section #about p[data-scroll="in"]{
+    opacity: 1;
+    transition-delay: 1s;
+ }
