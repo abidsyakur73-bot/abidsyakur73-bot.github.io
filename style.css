@@ -8,15 +8,49 @@ html{
     background-color: #dfa355;
 }
 
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,#dfa355);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent,#ad6b07);
+}
+
+
 .lead{
-    font-family:Courier;
+    font-family:'Courier';
     font-weight: bold;
+    font-size: 23px;
+    animation: fade-inout 3s infinite alternate;
 }
 .display-4{
     font-family:'Roboto Mono',monospace;
+    width: 7.5em;
+    position: relative;
+    border-right: 4px solid black;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;transform: translateY(-50);
+    
 }
+
+/*animation*/
+.display-4{
+    animation:typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+
+
+
 .card{
     background-color: #edba78ec;
+    box-shadow: 50%;
 
 }
 
@@ -34,4 +68,28 @@ footer{
 
 section{
     padding-top: 6rem;
+}
+
+
+@keyframes typewriter {
+    from{
+        width: 0;
+    }
+    to {
+        width: 7.5em;
+    }
+    
+}
+
+@keyframes blinkTextCursor{
+    from{
+        border-right-color: black;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+@keyframes fade-inout {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
