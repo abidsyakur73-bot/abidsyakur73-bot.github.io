@@ -3,18 +3,22 @@ html{
     scroll-behavior: smooth;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 .jumbotron-fluid{
     padding-top: 6rem;
     background-color: #dfa355;
 }
 
 ::-webkit-scrollbar{
-    width: 12px;
+    width: 4px;
 }
 
 ::-webkit-scrollbar-thumb{
     background: linear-gradient(transparent,#dfa355);
-    border-radius: 6px;
+    border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover{
