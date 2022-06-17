@@ -19,12 +19,6 @@ html{
     background-color: #edba78ec;
 
 }
-.card:hover{
-    z-index: 3;
-    transform: scale(1.25);
-
-}
-
 
 #projects{
     background-color:#dfa355 ;
