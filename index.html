@@ -7,7 +7,8 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -23,6 +24,7 @@
      <!-- akhir bootstrap icon -->
 
     <!-- my css -->
+    <link rel="stylesheet" href="game.scss">
     <link rel="stylesheet" href="style.css" />
      
 
@@ -30,14 +32,15 @@
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+   />
+   
 
     <title>My Portofolio | Muhammad Abid</title>
   </head>
   <body id="home">
 
     <!--Navbar  -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-md" style="background-color:#ad6b07">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-md" style="background-color:#361500">
   <div class="container">
     <a class="navbar-brand" href="#">Muhammad Abid</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,18 +52,20 @@
           <a class="nav-link active" aria-current="page" href="#home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#game">Game</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#projects">Projects</a>
         </li>
        
         <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" href="#contact">About me</a>
         </li>
+
        
       </ul>
     </div>
+    
   </div>
 </nav>
    
@@ -70,31 +75,39 @@
     <!-- Jumbotron -->
     <section class="jumbotron-fluid text-center">
         <img src="img/Abid1.png"  alt="Muhammad Abid" width=" 180px"
-        class="rounded-circle img-thumbnail shadow-lg">
-        <h1 class="display-4 mt-sm-5">Muhammad Abid.</h1>
+        class="rounded-circle img-thumbnail">
+        <h1 class="display-4 mt-sm-5"><span>I</span>M<span>ABID</span></h1>
         <p class="lead">Student | Coder </p>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,64L48,96C96,128,192,192,288,202.7C384,213,480,171,576,138.7C672,107,768,85,864,112C960,139,1056,213,1152,208C1248,203,1344,117,1392,74.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#361500" fill-opacity="1" d="M0,224L20,202.7C40,181,80,139,120,138.7C160,139,200,181,240,192C280,203,320,181,360,160C400,139,440,117,480,133.3C520,149,560,203,600,197.3C640,192,680,128,720,90.7C760,53,800,43,840,69.3C880,96,920,160,960,176C1000,192,1040,160,1080,133.3C1120,107,1160,85,1200,101.3C1240,117,1280,171,1320,176C1360,181,1400,139,1420,117.3L1440,96L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#361500" fill-opacity="1" d="M0,64L16,101.3C32,139,64,213,96,218.7C128,224,160,160,192,133.3C224,107,256,117,288,149.3C320,181,352,235,384,229.3C416,224,448,160,480,117.3C512,75,544,53,576,69.3C608,85,640,139,672,144C704,149,736,107,768,112C800,117,832,171,864,181.3C896,192,928,160,960,144C992,128,1024,128,1056,106.7C1088,85,1120,43,1152,69.3C1184,96,1216,192,1248,213.3C1280,235,1312,181,1344,138.7C1376,96,1408,64,1424,48L1440,32L1440,0L1424,0C1408,0,1376,0,1344,0C1312,0,1280,0,1248,0C1216,0,1184,0,1152,0C1120,0,1088,0,1056,0C1024,0,992,0,960,0C928,0,896,0,864,0C832,0,800,0,768,0C736,0,704,0,672,0C640,0,608,0,576,0C544,0,512,0,480,0C448,0,416,0,384,0C352,0,320,0,288,0C256,0,224,0,192,0C160,0,128,0,96,0C64,0,32,0,16,0L0,0Z"></path></svg>
       </section>
     <!-- akhir jumbotron -->
 
     <!-- about -->
-   <section id="about">
-     <div class="container">
-        <div class="row text-center mb-3">
-            <div class="col">
-                <h2 class="mb-4 animate__animated  animate__bounce">About me</h2>
-            </div>
+  <section id="game">
+    <div class="container noselect" id="game">
+      <div class="wrapper">
+        <button id="replay">
+          <i class="fas fa-play"></i>
+          RESTART
+        </button>
+        <div id="canvas">
+    
         </div>
-        <div class="row justify-content-center fs-5 text-center ">
-            <div class="col-md-4">
-                <p style="font-family:monospace" class="animate__animated  animate__fadeInLeft">Halo <i class="bi bi-emoji-laughing"></i> Nama Saya Muhammad Abid A Syakur, Saya tinggal  di Sampang, Jawa Timur. Saya baru saja lulus dari MAN Insan Cendekia Pasuruan</p>
-            </div>
-            <div class="col-md-4">
-                <p style="font-family:monospace" class="animate__animated animate__fadeInRight">Saya  memulai berkarier dalam dunia IT dalam waktu dekat ini.Beberapa project telah saya buat dalam rangka melengkapi karya saya sekaligus sebagai portofolio.</p>
-            </div>
+        <div id="ui">
+          <h2>SCORE
+          </h2>
+          <span id="score">00</span>
         </div>
-     </div>
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#dfa355" fill-opacity="1" d="M0,32L30,53.3C60,75,120,117,180,138.7C240,160,300,160,360,149.3C420,139,480,117,540,90.7C600,64,660,32,720,37.3C780,43,840,85,900,117.3C960,149,1020,171,1080,154.7C1140,139,1200,85,1260,58.7C1320,32,1380,32,1410,32L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+      </div>
+      <div id="author">
+      <h1>Selamat Bermain!!</h1>
+      </div>
+    </div>
+  
+    
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#361500" fill-opacity="1" d="M0,32L20,42.7C40,53,80,75,120,117.3C160,160,200,224,240,245.3C280,267,320,245,360,218.7C400,192,440,160,480,128C520,96,560,64,600,64C640,64,680,96,720,133.3C760,171,800,213,840,208C880,203,920,149,960,144C1000,139,1040,181,1080,186.7C1120,192,1160,160,1200,165.3C1240,171,1280,213,1320,202.7C1360,192,1400,128,1420,96L1440,64L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path></svg>
+   
    </section>
     <!-- akhir about -->
     
@@ -110,14 +123,14 @@
 
         <div class="row">
            <div class="col-sm-4 mb-3">
-            <div class="card shadow-lg animate__animated animate__fadeInUp" style="width: 18rem;">
+            <div class="card animate__animated animate__fadeInUp" style="width: 18rem;">
                 <img src="img/project1.png" class="card-img-top" alt="...">
-                <div class="card-body"style="font-family:monospace"><p>Project ini berjudul Solve Covid Runner.Project ini Merupakan 3D game dengan genre arcade yang bertemakan Covid.Selain sebagai hiburan game ini dapat memberikan edukasi bagi pengguna </p>
+                <div class="card-body"style="font-family:monospace"><p class="card-text">Project ini berjudul Solve Covid Runner.Project ini Merupakan 3D game dengan genre arcade yang bertemakan Covid.Selain sebagai hiburan game ini dapat memberikan edukasi bagi pengguna </p>
                 </div>
               </div>
            </div>
            <div class="col-sm-4 mb-3">
-             <div class="card shadow-lg animate__animated animate__fadeInUp" style="width: 20rem">
+             <div class="card  animate__animated animate__fadeInUp" style="width: 20rem">
                 <img src="img/project2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text"style="font-family:monospace">Project ini berjudul Jamet.Project ini merupakan NFT 3d yang dibuat menggunakan software blender.Saya mengangkat NFT bertemakan lokal ini bertujuan agar produk lokal tidak kalah jauh dengan produk luar .Dan membuktikan bahwa kita bisa menghasilkan karya melalui keragaman budaya dan sosial dalam negeri</p>
@@ -125,7 +138,7 @@
               </div>
            </div>
            <div class="col-sm-4 mb-3">
-            <div class="card shadow-lg animate__animated animate__fadeInUp" style="width: 18rem;">
+            <div class="card animate__animated animate__fadeInUp" style="width: 18rem;">
                 <img src="img/project3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text"style="font-family:monospace">Project ini merupakan website community yang hanya menggunakan html dan css. project ini atau website ini berjudul Bubu Danadyaksa,yaitu Angkatan saya dalam menempuh perjalanan selama 3 tahun di MAN.</p>
@@ -134,12 +147,61 @@
            </div>   
         </div>    
     </div>  
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,64L24,64C48,64,96,64,144,101.3C192,139,240,213,288,213.3C336,213,384,139,432,138.7C480,139,528,213,576,229.3C624,245,672,203,720,181.3C768,160,816,160,864,170.7C912,181,960,203,1008,218.7C1056,235,1104,245,1152,245.3C1200,245,1248,235,1296,197.3C1344,160,1392,96,1416,64L1440,32L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1C0A00" fill-opacity="1" d="M0,128L20,144C40,160,80,192,120,202.7C160,213,200,203,240,176C280,149,320,107,360,74.7C400,43,440,21,480,53.3C520,85,560,171,600,202.7C640,235,680,213,720,208C760,203,800,213,840,186.7C880,160,920,96,960,106.7C1000,117,1040,203,1080,197.3C1120,192,1160,96,1200,74.7C1240,53,1280,107,1320,117.3C1360,128,1400,96,1420,80L1440,64L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path></svg>
 
     </section>
     <!-- akhir projects -->
 
-    <!-- contact -->
+   <section id="contact">
+    <div class="row justify-content-center mb-5" style="color:#fff;text-shadow: 0 0 10px #FFFFFF;">
+       <h2>About Me</h2>
+    </div>
+    <div class="row justify-content-center mb-5">
+      <div class="card-hero">
+        <div class="content">
+            <h2>Muhammad Abid</h2><br>
+            <p>Halo, Namaku Abid asal Sampang ,Jawa Timur. Website ini dibuat cuman iseng aja :v . Jadi yaa harap dimaklumi kalo web nya kurang estetik xixixi . Oiyaa kalo mau hubungi aku ada di kartu sebelah yakk</p>
+        </div>
+      <img src="img/abid3.png" alt="">
+    </div>
+    <div class="card-hero2">
+        <div class="content">
+            <h2>info maszehh!!</h2><br>
+            <h4 style="color:#FFFFFF">Langsung Kepoin!!</h4>
+            <p>Terima kasih telah berkunjung, jangan lupa kembali <i class="bi bi-emoji-smile"></i></p><br><br>
+            <div class="row">
+              <p><a href="https://www.instagram.com/snsky07/"><i class="bi bi-instagram"></i> </a> </p>
+            <p><a href="https://github.com/abidsyakur73-bot"><i class="bi bi-github"></i> </a> </p>
+            <p><a href="tel:+6287898388993"><i class="bi bi-whatsapp"></i> </a> </p>
+            <p><a href="https://www.linkedin.com/in/muhammad-abid-7657401b7/"><i class="bi bi-linkedin"></i> </a> </p>
+            </div>
+            
+        </div>
+      <img src="img/abid.png" alt="">
+    </div>
+    </div>
+      
+
+   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- contact 
     <section id="contact">
         <div class="container">
             <div class="row text-center mb-3">
@@ -167,14 +229,14 @@
                             <label for="pesan" class="form-label"style="font-family:monospace">Pesan</label>
                             <textarea class="form-control" id="pesan" rows="3"></textarea>
                           </div>
-                        <button type="submit" class="btn btn-primary"style="font-family:monospace">kirim</button>
+                        <button type="submit" class="btn"style="font-family:monospace">kirim</button>
                       </form>
                 </div>
             </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#dfa355" fill-opacity="1" d="M0,32L21.8,48C43.6,64,87,96,131,122.7C174.5,149,218,171,262,160C305.5,149,349,107,393,122.7C436.4,139,480,213,524,208C567.3,203,611,117,655,96C698.2,75,742,117,785,160C829.1,203,873,245,916,261.3C960,277,1004,267,1047,240C1090.9,213,1135,171,1178,176C1221.8,181,1265,235,1309,213.3C1352.7,192,1396,96,1418,48L1440,0L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#361500" fill-opacity="1" d="M0,32L20,53.3C40,75,80,117,120,144C160,171,200,181,240,192C280,203,320,213,360,197.3C400,181,440,139,480,138.7C520,139,560,181,600,197.3C640,213,680,203,720,208C760,213,800,235,840,250.7C880,267,920,277,960,250.7C1000,224,1040,160,1080,133.3C1120,107,1160,117,1200,112C1240,107,1280,85,1320,64C1360,43,1400,21,1420,10.7L1440,0L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path></svg>
     </section>
-    <!-- akhir contact -->
+    akhir contact -->
 
     <!-- Footer -->
 
@@ -185,7 +247,8 @@
     </footer>
 
     <!-- Akhir Footer -->
-
+    
+    <script src="script.js"></script>
     <!-- bootsrap js -->
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -206,6 +269,20 @@
       new WOW().init();
       </script>
   <!-- akhir wow js -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+
+
+
+
+
+
+
+
 
   </body>
 </html>
