@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 html{
     scroll-behavior: smooth;
@@ -460,7 +459,7 @@ section{
 section #about p[data-scroll="in"]{
     opacity: 1;
     transition-delay: 1s;
-=======
+}
 
 html{
     scroll-behavior: smooth;
@@ -584,7 +583,7 @@ body{
 
 
 footer{
-    background-color:#361500;
+    background-color:#1c0A00;
 }
 
 section{
@@ -796,6 +795,7 @@ section{
   button:focus {
     outline: 0;
   }
+
   
  
   canvas {
@@ -869,7 +869,12 @@ section{
     .container {
       flex-flow: column wrap;
     }
+   
   }
+  .container p{
+    font-size: 16px;
+    color: #603601;
+}
   #author {
     color: #603601;
     width: 100%;
@@ -891,7 +896,7 @@ section{
   }
   #author h1 {
     color: #603601;
-    font-size: 25px;
+    font-size: 18px;
   }
   .wrapper {
     display: flex;
@@ -930,5 +935,5 @@ section{
 section #about p[data-scroll="in"]{
     opacity: 1;
     transition-delay: 1s;
->>>>>>> 5078c90d1bab8abc02ff6e2e9df9f5162273aedf
+
  }
