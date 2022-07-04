@@ -905,6 +905,51 @@ section{
     align-items: center;
     margin-bottom: 20px;
   }
+
+.progres-title{
+    width: 100%;
+    height: auto;
+}
+.progres-title h3{
+   font-size: 18px;
+    color:white;
+    margin: 0 0  20px;
+}
+
+.progress{
+    height: 20px;
+    background:#111 ;
+    border-radius: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 2px 2px #fff;
+    margin-bottom: 40px;
+    overflow: visible;
+    position: relative;
+}
+.progress .progress-bar{
+    border-radius: 20px;
+    border: 1px solid #000;
+    animation:  animate-positive 2s;
+}
+.progress .progress-value{
+    width: 65px;
+    height: 25px;
+    line-height: 25px;
+    background: #1c0A00;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius:  0 0 15px 15px;
+    border-top: none;
+    box-shadow: 0 2px 2px #fff;
+    position: absolute;
+    bottom: -25px;
+    right:65px;
+}
+
+
+
+
   
  /*
 @keyframes typewriter {
@@ -937,3 +982,16 @@ section #about p[data-scroll="in"]{
     transition-delay: 1s;
 
  }
+
+@-webkit-keyframes animate-positive{
+    0%{
+        width: 0;
+    }
+}
+
+ @keyframes animate-positive{
+    0%{
+        width: 0;
+    }
+}
+
